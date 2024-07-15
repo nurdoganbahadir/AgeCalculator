@@ -41,3 +41,6 @@ body {
   color: black;
   transform: scale(110%);
 }
+#calculateBtn:active {
+  background-color: rgb(56, 211, 42);
+}
