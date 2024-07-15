@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: gray;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+.container {
+  background-color: black;
+  margin: auto;
+  width: 65%;
+  box-shadow: 5px 5px 15px black;
+  display: flex;
+  flex-direction: column;
+  border-radius: 1rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  text-align: center;
+}
+#birthdate {
+  width: 300px;
+  margin: auto;
+  height: 30px;
+}
+#calculateBtn {
+  background-color: rgb(15, 76, 152);
+  color: white;
+  width: 150px;
+  height: 35px;
+  margin: auto;
+  margin-top: 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  cursor: pointer;
+  transition: all 1s;
+}
+#calculateBtn:hover {
+  background-color: rgb(205, 197, 197);
+  color: black;
+  transform: scale(110%);
+}
